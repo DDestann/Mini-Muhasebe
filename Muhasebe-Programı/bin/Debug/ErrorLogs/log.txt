@@ -1,0 +1,19 @@
+Hata oluştu: Incorrect syntax near '3.02.2023 00:00:00'. (Update Giderler Set GiderAdi='Gıda', Tutar='12.00', '3.02.2023 00:00:00' Where GiderId=1)
+Hata oluştu: Incorrect syntax near '300.00'. (Update TOdemeler Set TOdenen'300.00', Tarih='1.03.2023' Where TOdemeId=3)
+Hata oluştu: Incorrect syntax near '300.00'. (Update TOdemeler Set TOdenen'300.00', Tarih='2023.03.01' Where TOdemeId=3)
+Hata oluştu: Incorrect syntax near '300.00'. (Update TOdemeler Set TOdenen'300.00', Tarih='2023.02.01' Where TOdemeId=3)
+Hata oluştu: Incorrect syntax near '300.00'. (Update TOdemeler Set TOdenen'300.00', Tarih='2023.02.01' Where TOdemeId=3)
+Hata Oluştu: Invalid column name 'Tarih'.
+Invalid column name 'Tarih'. (Select * From TSiparis  Where Tarih BETWEEN '2023.03.01' AND '2023.03.01' )
+Hata Oluştu: The database 'C:\USERS\LOKMA\DESKTOP\MUHASEBE-PROGRAMı\MUHASEBE-PROGRAMı\MUHASEBE-PROGRAMı\BIN\DEBUG\APP_DATA\MUHASEBEDB.MDF' cannot be opened because it is version 852. This server supports version 706 and earlier. A downgrade path is not supported.
+Could not open new database 'C:\USERS\LOKMA\DESKTOP\MUHASEBE-PROGRAMı\MUHASEBE-PROGRAMı\MUHASEBE-PROGRAMı\BIN\DEBUG\APP_DATA\MUHASEBEDB.MDF'. CREATE DATABASE is aborted.
+An attempt to attach an auto-named database for file C:\Users\lokma\Desktop\Muhasebe-Programı\Muhasebe-Programı\Muhasebe-Programı\bin\Debug\App_Data\MuhasebeDB.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share. (Select * From Firma)
+Hata Oluştu: The database 'C:\USERS\LOKMA\DESKTOP\MUHASEBE-PROGRAMı\MUHASEBE-PROGRAMı\MUHASEBE-PROGRAMı\BIN\DEBUG\APP_DATA\MUHASEBEDB.MDF' cannot be opened because it is version 852. This server supports version 706 and earlier. A downgrade path is not supported.
+Could not open new database 'C:\USERS\LOKMA\DESKTOP\MUHASEBE-PROGRAMı\MUHASEBE-PROGRAMı\MUHASEBE-PROGRAMı\BIN\DEBUG\APP_DATA\MUHASEBEDB.MDF'. CREATE DATABASE is aborted.
+An attempt to attach an auto-named database for file C:\Users\lokma\Desktop\Muhasebe-Programı\Muhasebe-Programı\Muhasebe-Programı\bin\Debug\App_Data\MuhasebeDB.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share. (Select * From Firma)
+Hata Oluştu: Invalid object name 'TOdemeler'. (Select * From TOdemeler)
+Hata Oluştu: Invalid object name 'Giderler'. (Select * From Giderler )
+Hata Oluştu: Invalid column name 'Odendi'. (SELECT Tedarikci.FirmaAdi, TSiparis.* FROM  Tedarikci INNER JOIN  TSiparis ON Tedarikci.TedarikciId = TSiparis.TedarikciId Where Odendi='False')
+Hata Oluştu: Invalid column name 'Odendi'. (Select * From TSiparis Where Odendi='False')
+Hata Oluştu: Invalid column name 'Odendi'. (SELECT Tedarikci.FirmaAdi, TSiparis.* FROM  Tedarikci INNER JOIN  TSiparis ON Tedarikci.TedarikciId = TSiparis.TedarikciId Where Odendi='True')
+Hata Oluştu: Invalid column name 'Odendi'. (Select * From TSiparis Where Odendi='True')
